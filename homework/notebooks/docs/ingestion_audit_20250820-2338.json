@@ -1,0 +1,12 @@
+{
+  "run_ts": "2025-08-20T23:38:44",
+  "api": {
+    "source": "yfinance",
+    "ticker": "AAPL",
+    "start": "2024-01-01",
+    "end": "2024-08-01",
+    "shape": [
+      146,
+      6
+    ],
+    "na_counts": {

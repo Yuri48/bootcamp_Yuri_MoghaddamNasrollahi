@@ -1,0 +1,57 @@
+{
+  "run_ts": "2025-08-20T23:39:31",
+  "api": {
+    "source": "yfinance",
+    "ticker": "AAPL",
+    "start": "2024-01-01",
+    "end": "2024-08-01",
+    "shape": [
+      146,
+      6
+    ],
+    "na_counts": {
+      "('Date', '')": 0,
+      "('Close', 'AAPL')": 0,
+      "('High', 'AAPL')": 0,
+      "('Low', 'AAPL')": 0,
+      "('Open', 'AAPL')": 0,
+      "('Volume', 'AAPL')": 0
+    },
+    "columns": [
+      "('Date', '')",
+      "('Close', 'AAPL')",
+      "('High', 'AAPL')",
+      "('Low', 'AAPL')",
+      "('Open', 'AAPL')",
+      "('Volume', 'AAPL')"
+    ]
+  },
+  "scrape": {
+    "url": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "table_id": "constituents",
+    "shape": [
+      503,
+      8
+    ],
+    "na_counts": {
+      "Symbol": 0,
+      "Security": 0,
+      "GICS Sector": 0,
+      "GICS Sub-Industry": 0,
+      "Headquarters Location": 0,
+      "Date added": 0,
+      "CIK": 0,
+      "Founded": 0
+    },
+    "columns": [
+      "Symbol",
+      "Security",
+      "GICS Sector",
+      "GICS Sub-Industry",
+      "Headquarters Location",
+      "Date added",
+      "CIK",
+      "Founded"
+    ]
+  }
+}
